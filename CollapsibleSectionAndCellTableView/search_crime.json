@@ -1,0 +1,1151 @@
+[
+  {
+    "category": "Factual",
+    "events": [
+      {
+        "id": "038530029",
+        "title": "Body Of Evidence",
+        "synopsis": "Smokescreen: A woman is found dead in her car, and Dayle thinks that the crime was not committed by one person, but two.",
+        "channelNumber": 71,
+        "start": "1538060400000",
+        "end": "1538062200000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-CV",
+        "seriesId": "58210",
+        "relatedEvents": []
+      },
+      {
+        "id": "038529997",
+        "title": "Born To Kill?",
+        "synopsis": "Myra Hindley: The crimes committed by Hindley and Ian Brady became the benchmark by which other acts of evil were measured.",
+        "channelNumber": 71,
+        "start": "1537957800000",
+        "end": "1537961400000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "16-CV",
+        "seriesId": "54902",
+        "relatedEvents": []
+      },
+      {
+        "id": "038721163",
+        "title": "CI Australia: Families Of Crime",
+        "synopsis": "Kath Pettingill: One-eyed crime matriarch Kath Pettingill mothered a brood of ten children, including feared drug dealer Dennis Allen.",
+        "channelNumber": 71,
+        "start": "1539387000000",
+        "end": "1539390600000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-LV",
+        "seriesId": "61357",
+        "relatedEvents": [
+          {
+            "id": "038721181",
+            "title": "CI Australia: Families Of Crime",
+            "synopsis": "Kath Pettingill: One-eyed crime matriarch Kath Pettingill mothered a brood of ten children, including feared drug dealer Dennis Allen.",
+            "channelNumber": 71,
+            "start": "1539448200000",
+            "end": "1539451800000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-LV",
+            "seriesId": "59029"
+          }
+        ]
+      },
+      {
+        "id": "038721168",
+        "title": "Caught On Camera",
+        "synopsis": "Britain Running Riot: With almost six million cameras across the UK, Britain's network of CCTV cameras is the most sophisticated in the world - revealing more crime than ever.",
+        "channelNumber": 71,
+        "start": "1539405000000",
+        "end": "1539408600000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-CV",
+        "seriesId": "56018",
+        "relatedEvents": []
+      },
+      {
+        "id": "038721162",
+        "title": "Cold Case Files",
+        "synopsis": "A Scorned Man/ The Dungeon: A gay man murdered a woman because she became too friendly with his boyfriend and a man goes on a monstrous crime spree.",
+        "channelNumber": 71,
+        "start": "1539383400000",
+        "end": "1539387000000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-CSV",
+        "seriesId": "56678",
+        "relatedEvents": []
+      },
+      {
+        "id": "038529976",
+        "title": "Crime Stories",
+        "synopsis": "The Wrong Man: Tankleff: Marty Tankleff is serving a life sentence for murder. In 1988 he was arrested and charged with killing his parents. This episode searches for the truth.",
+        "channelNumber": 71,
+        "start": "1537889400000",
+        "end": "1537893000000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-CV",
+        "seriesId": "56690",
+        "relatedEvents": [
+          {
+            "id": "038530003",
+            "title": "Crime Stories",
+            "synopsis": "Firestarter: John Orr was a fire department captain, but as it turned out one of the most prolific arsonists of recent times.",
+            "channelNumber": 71,
+            "start": "1537975800000",
+            "end": "1537979400000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-CV",
+            "seriesId": "56690"
+          },
+          {
+            "id": "038530030",
+            "title": "Crime Stories",
+            "synopsis": "A Son's Revenge: Edmund Kemper: In a taped confession, Kemper revealed that his last murder should have been his first and only killing.",
+            "channelNumber": 71,
+            "start": "1538062200000",
+            "end": "1538065800000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-CV",
+            "seriesId": "56690"
+          },
+          {
+            "id": "038530056",
+            "title": "Crime Stories",
+            "synopsis": "Hunt For A Serial Killer: For two-and-a-half years a Spokane serial killer terrorises the city. Investigation reveals he may be responsible for homicides spanning 25 years.",
+            "channelNumber": 71,
+            "start": "1538148600000",
+            "end": "1538152200000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-CV",
+            "seriesId": "56690"
+          }
+        ]
+      },
+      {
+        "id": "038529960",
+        "title": "Crimes That Shook Australia",
+        "synopsis": "Jill Meagher: In 2012, Jill Meagher was enjoying a night out. What followed was a life cut short in the most horrific of circumstances.",
+        "channelNumber": 71,
+        "start": "1537835400000",
+        "end": "1537839000000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-V",
+        "seriesId": "56127",
+        "relatedEvents": [
+          {
+            "id": "038721040",
+            "title": "Crimes That Shook Australia",
+            "synopsis": "Patricia Byers: John Asquith was shot by his lover; the subsequent investigation would have Patricia Byers infamously known as 'The Black Widow'.",
+            "channelNumber": 71,
+            "start": "1538980200000",
+            "end": "1538983800000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-V",
+            "seriesId": "34229"
+          },
+          {
+            "id": "038721043",
+            "title": "Crimes That Shook Australia",
+            "synopsis": "Patricia Byers: John Asquith was shot by his lover; the subsequent investigation would have Patricia Byers infamously known as 'The Black Widow'.",
+            "channelNumber": 71,
+            "start": "1538994600000",
+            "end": "1538998200000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-V",
+            "seriesId": "50047"
+          },
+          {
+            "id": "038721053",
+            "title": "Crimes That Shook Australia",
+            "synopsis": "Patricia Byers: John Asquith was shot by his lover; the subsequent investigation would have Patricia Byers infamously known as 'The Black Widow'.",
+            "channelNumber": 71,
+            "start": "1539023400000",
+            "end": "1539027000000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-V",
+            "seriesId": "55829"
+          }
+        ]
+      },
+      {
+        "id": "038529969",
+        "title": "Crimes That Shook Britain",
+        "synopsis": "The Rochdale Groomers: One of the UK's biggest sex trafficking rings was uncovered in Rochdale in 2012.",
+        "channelNumber": 71,
+        "start": "1537868400000",
+        "end": "1537871400000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "16-C",
+        "seriesId": "53031",
+        "relatedEvents": [
+          {
+            "id": "038529973",
+            "title": "Crimes That Shook Britain",
+            "synopsis": "The Rochdale Groomers: One of the UK's biggest sex trafficking rings was uncovered in Rochdale in 2012.",
+            "channelNumber": 71,
+            "start": "1537882800000",
+            "end": "1537885800000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "16-C",
+            "seriesId": "57074"
+          },
+          {
+            "id": "038529983",
+            "title": "Crimes That Shook Britain",
+            "synopsis": "The Rochdale Groomers: One of the UK's biggest sex trafficking rings was uncovered in Rochdale in 2012.",
+            "channelNumber": 71,
+            "start": "1537911600000",
+            "end": "1537914600000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "16-C",
+            "seriesId": "58935"
+          },
+          {
+            "id": "038529988",
+            "title": "Crimes That Shook Britain",
+            "synopsis": "The Rochdale Groomers: One of the UK's biggest sex trafficking rings was uncovered in Rochdale in 2012.",
+            "channelNumber": 71,
+            "start": "1537929600000",
+            "end": "1537932600000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "16-C",
+            "seriesId": "59213"
+          }
+        ]
+      },
+      {
+        "id": "038721102",
+        "title": "Deadly Women",
+        "synopsis": "Kill For Cash: This episode looks at three separate crimes including Australian, Kim Snibson who was the evil mastermind of a double murder in 2006.",
+        "channelNumber": 71,
+        "start": "1539187200000",
+        "end": "1539190800000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-CV",
+        "seriesId": "58276",
+        "relatedEvents": []
+      },
+      {
+        "id": "038721115",
+        "title": "Death Row Stories",
+        "synopsis": "Double Jeopardy: The wife and children of an Air Force captain are murdered and Tim Hennis is sentenced to death for the crime.",
+        "channelNumber": 71,
+        "start": "1539232200000",
+        "end": "1539235800000",
+        "genres": [
+          "Investigations"
+        ],
+        "rating": "M-CV",
+        "relatedEvents": [
+          {
+            "id": "038721130",
+            "title": "Death Row Stories",
+            "synopsis": "Double Jeopardy: The wife and children of an Air Force captain are murdered and Tim Hennis is sentenced to death for the crime.",
+            "channelNumber": 71,
+            "start": "1539277200000",
+            "end": "1539280800000",
+            "genres": [
+              "Investigations"
+            ],
+            "rating": "M-CV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Kids & Family",
+    "events": [
+      {
+        "id": "038884336",
+        "title": "Andi Mack",
+        "synopsis": "Crime Scene: Andishack!: A special craft project goes missing when Andi agrees to let Miranda's daughter spend the day at AndiShack. Jonah confides in Buffy and Cyrus.",
+        "channelNumber": 100,
+        "start": "1538864100000",
+        "end": "1538865720000",
+        "genres": [
+          "Kids/Family"
+        ],
+        "rating": "PG",
+        "seriesId": "56354",
+        "relatedEvents": []
+      },
+      {
+        "id": "038518043",
+        "title": "Henry Danger",
+        "synopsis": "Mouth Candy: Jasper's enthusiasm for crime fighting leads him to be falsely accused of a burglary and sent to jail; Henry and Ray must find a way to set him free.",
+        "channelNumber": 101,
+        "start": "1537915200000",
+        "end": "1537916700000",
+        "genres": [
+          "Kids/Family"
+        ],
+        "rating": "G",
+        "seriesId": "56609",
+        "relatedEvents": [
+          {
+            "id": "038518058",
+            "title": "Henry Danger",
+            "synopsis": "Mouth Candy: Jasper's enthusiasm for crime fighting leads him to be falsely accused of a burglary and sent to jail; Henry and Ray must find a way to set him free.",
+            "channelNumber": 101,
+            "start": "1537939800000",
+            "end": "1537941600000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          },
+          {
+            "id": "038735089",
+            "title": "Henry Danger",
+            "synopsis": "Mo' Danger, Mo' Problems: As Henry tries to adjust to his new role as Kid Danger, he struggles to balance his schedule between crime fighting, school, family and friends.",
+            "channelNumber": 101,
+            "start": "1539207300000",
+            "end": "1539208800000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          },
+          {
+            "id": "038735143",
+            "title": "Henry Danger",
+            "synopsis": "Tears Of The Jolly Beetle: When Captain Man loses his powers of invulnerability, he is too afraid to fight crime. It's up to Kid Danger to figure out how to restore Captain Man's powers.",
+            "channelNumber": 101,
+            "start": "1539293700000",
+            "end": "1539295200000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          }
+        ]
+      },
+      {
+        "id": "038518029",
+        "title": "SpongeBob SquarePants",
+        "synopsis": "Pre-Hibernation Week / Life Of Crime: Sandy drives everyone into hiding and SpongeBob and Patrick 'borrow' a balloon but accidentally pop it. Fearing a life in jail, they flee.",
+        "channelNumber": 101,
+        "start": "1537892100000",
+        "end": "1537893600000",
+        "genres": [
+          "Kids/Family"
+        ],
+        "rating": "G",
+        "relatedEvents": [
+          {
+            "id": "038735274",
+            "title": "SpongeBob SquarePants",
+            "synopsis": "Pre-Hibernation Week / Life Of Crime: Sandy drives everyone into hiding and SpongeBob and Patrick 'borrow' a balloon but accidentally pop it. Fearing a life in jail, they flee.",
+            "channelNumber": 101,
+            "start": "1539504900000",
+            "end": "1539506400000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          }
+        ]
+      },
+      {
+        "id": "038884192",
+        "title": "Tangled: The Series",
+        "synopsis": "Max's Enemy: A new crime-fighting horse arrives in Corona. But it doesn't take long for Maximus to realize his new stable-mate didn't come to town to make nice.",
+        "channelNumber": 100,
+        "start": "1538659560000",
+        "end": "1538661060000",
+        "genres": [
+          "Cartoons/Puppets"
+        ],
+        "rating": "G",
+        "seriesId": "56417",
+        "relatedEvents": [
+          {
+            "id": "038884863",
+            "title": "Tangled: The Series",
+            "synopsis": "Max's Enemy: A new crime-fighting horse arrives in Corona. But it doesn't take long for Maximus to realize his new stable-mate didn't come to town to make nice.",
+            "channelNumber": 100,
+            "start": "1539609960000",
+            "end": "1539611460000",
+            "genres": [
+              "Cartoons/Puppets"
+            ],
+            "rating": "G"
+          }
+        ]
+      },
+      {
+        "id": "038493560",
+        "title": "Teen Titans Go!",
+        "synopsis": "Some of Their Parts: When Beast Boy finds the prism that separated Raven into five parts, Robin decides to split each Titan with the prism so he can build his ideal crime fighting team.",
+        "channelNumber": 102,
+        "start": "1537832640000",
+        "end": "1537833600000",
+        "genres": [
+          "Kids/Family"
+        ],
+        "rating": "PG",
+        "relatedEvents": [
+          {
+            "id": "038493578",
+            "title": "Teen Titans Go!",
+            "synopsis": "The Streak Part 1: It's Crime Season and Robin is determined to continue his streak of stopping 52 crimes every year.",
+            "channelNumber": 102,
+            "start": "1537848000000",
+            "end": "1537848660000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "PG",
+            "seriesId": "56616"
+          },
+          {
+            "id": "038493579",
+            "title": "Teen Titans Go!",
+            "synopsis": "The Streak Part 2: Robin's streak of stopping 52 crimes every year is in jeopardy when members of his team are poached by Kid Flash.",
+            "channelNumber": 102,
+            "start": "1537848660000",
+            "end": "1537849320000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "PG",
+            "seriesId": "56616"
+          },
+          {
+            "id": "038494026",
+            "title": "Teen Titans Go!",
+            "synopsis": "The Streak Part 1: It's Crime Season and Robin is determined to continue his streak of stopping 52 crimes every year.",
+            "channelNumber": 102,
+            "start": "1538170200000",
+            "end": "1538171100000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "PG",
+            "seriesId": "56821"
+          }
+        ]
+      },
+      {
+        "id": "038493902",
+        "title": "The Powerpuff Girls",
+        "synopsis": "The Long Skate Home: After they get accused of a crime they didn't commit, The Powerpuff Girls and The Derbytantes have to find a way to clear their name!",
+        "channelNumber": 102,
+        "start": "1538076300000",
+        "end": "1538076960000",
+        "genres": [
+          "Kids/Family"
+        ],
+        "rating": "G",
+        "seriesId": "44917",
+        "relatedEvents": [
+          {
+            "id": "038793733",
+            "title": "The Powerpuff Girls",
+            "synopsis": "The Long Skate Home: After they get accused of a crime they didn't commit, The Powerpuff Girls and The Derbytantes have to find a way to clear their name!",
+            "channelNumber": 102,
+            "start": "1539036000000",
+            "end": "1539036660000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G",
+            "seriesId": "55670"
+          },
+          {
+            "id": "038794122",
+            "title": "The Powerpuff Girls",
+            "synopsis": "Frenemy: When the coolest girl in school befriends the Powerpuff Girls, she charms them into becoming her accomplices in a series of adventurous crimes.",
+            "channelNumber": 102,
+            "start": "1539353460000",
+            "end": "1539354120000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          }
+        ]
+      },
+      {
+        "id": "038518003",
+        "title": "The Thundermans",
+        "synopsis": "Smells Like Team Spirit: Phoebe and Max must work on series of superhero team building exercises, but their approaches to training puts their future as a crime fighting team at risk.",
+        "channelNumber": 101,
+        "start": "1537851600000",
+        "end": "1537853400000",
+        "genres": [
+          "Kids/Family"
+        ],
+        "rating": "G",
+        "relatedEvents": [
+          {
+            "id": "038518111",
+            "title": "The Thundermans",
+            "synopsis": "Max to the Future: Concerned that he isn't considered a valuable superhero, Max creates a machine that can predict crimes. But when it doesn't work, he lies to keep the truth from Phoebe.",
+            "channelNumber": 101,
+            "start": "1538024400000",
+            "end": "1538026200000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G",
+            "seriesId": "56460"
+          },
+          {
+            "id": "038734868",
+            "title": "The Thundermans",
+            "synopsis": "Exit Stage Theft: Max tries to reestablish his evil cred with petty crimes, but when his best friends become a target, he must choose between his them and his reputation.",
+            "channelNumber": 101,
+            "start": "1538854800000",
+            "end": "1538856000000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          },
+          {
+            "id": "038734924",
+            "title": "The Thundermans",
+            "synopsis": "Crime After Crime: Hank creates a neighborhood watch group when crimes start happening. Max takes the blame for mysterious crimes to hide his own secret, but Phoebe knows he's innocent.",
+            "channelNumber": 101,
+            "start": "1538943300000",
+            "end": "1538945100000",
+            "genres": [
+              "Kids/Family"
+            ],
+            "rating": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Movies",
+    "events": [
+      {
+        "id": "038635282",
+        "title": "Castle On The Hudson",
+        "synopsis": "Crime: A hardened crook behind bars comes up against a reform-minded warden. Stars: John Garfield, Ann Sheridan, Pat O'Brien. 1940.",
+        "channelNumber": 38,
+        "start": "1539084000000",
+        "end": "1539088500000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "PG",
+        "relatedEvents": [
+          {
+            "id": "038635304",
+            "title": "Castle On The Hudson",
+            "synopsis": "Crime: A hardened crook behind bars comes up against a reform-minded warden. Stars: John Garfield, Ann Sheridan, Pat O'Brien. 1940.",
+            "channelNumber": 38,
+            "start": "1539232500000",
+            "end": "1539237000000",
+            "genres": [
+              "Thriller"
+            ],
+            "rating": "PG"
+          }
+        ]
+      },
+      {
+        "id": "038635389",
+        "title": "I Confess",
+        "synopsis": "Crime: A priest suspected of murder can only clear himself by violating the sanctity of the confessional. Starring: Montgomery Clift, Anne Baxter, Karl Malden. 1953.",
+        "channelNumber": 38,
+        "start": "1539761400000",
+        "end": "1539767100000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "PG",
+        "relatedEvents": [
+          {
+            "id": "038635395",
+            "title": "I Confess",
+            "synopsis": "Crime: A priest suspected of murder can only clear himself by violating the sanctity of the confessional. Starring: Montgomery Clift, Anne Baxter, Karl Malden. 1953.",
+            "channelNumber": 38,
+            "start": "1539802800000",
+            "end": "1539808500000",
+            "genres": [
+              "Thriller"
+            ],
+            "rating": "PG"
+          }
+        ]
+      },
+      {
+        "id": "038411391",
+        "title": "Narc",
+        "synopsis": "Crime:When the murder investigation of a Detroit cop goes cold, a former narcotics officer is lured back to solve the case, but the leads are few. Starring: Jason Patric, Ray Liotta",
+        "channelNumber": 32,
+        "start": "1538355600000",
+        "end": "1538361900000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "18-LV",
+        "relatedEvents": []
+      },
+      {
+        "id": "038666981",
+        "title": "Once Fallen",
+        "synopsis": "Crime: After a tough ex-convict is released from prison, he attempts to turn his life around by atoning for his past sins. Stars: Brian Presley, Ed Harris",
+        "channelNumber": 33,
+        "start": "1538957700000",
+        "end": "1538963100000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "16-LV",
+        "relatedEvents": [
+          {
+            "id": "038691526",
+            "title": "Once Fallen",
+            "synopsis": "Crime: After a tough ex-convict is released from prison, he attempts to turn his life around by atoning for his past sins. Stars: Brian Presley, Ed Harris",
+            "channelNumber": 33,
+            "start": "1539715200000",
+            "end": "1539720900000",
+            "genres": [
+              "Thriller"
+            ],
+            "rating": "16-LV"
+          }
+        ]
+      },
+      {
+        "id": "038635312",
+        "title": "Red Light",
+        "synopsis": "Crime: An embezzler's revenge on the businessman who turned him in leads to a bloody vendetta. Starring: George Raft, Virginia Mayo, Gene Lockhart. 1949.",
+        "channelNumber": 38,
+        "start": "1539276600000",
+        "end": "1539281700000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "PG",
+        "relatedEvents": [
+          {
+            "id": "038635319",
+            "title": "Red Light",
+            "synopsis": "Crime: An embezzler's revenge on the businessman who turned him in leads to a bloody vendetta. Starring: George Raft, Virginia Mayo, Gene Lockhart. 1949.",
+            "channelNumber": 38,
+            "start": "1539317100000",
+            "end": "1539322200000",
+            "genres": [
+              "Thriller"
+            ],
+            "rating": "PG"
+          }
+        ]
+      },
+      {
+        "id": "038635263",
+        "title": "Riffraff",
+        "synopsis": "Crime: Tragic romance ensues as a fisherman's daughter sacrifices all to help her husband. Starring: Jean Harlow, Spencer Tracy, Una Merkel. 1936.",
+        "channelNumber": 38,
+        "start": "1538972400000",
+        "end": "1538978100000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "PG",
+        "relatedEvents": []
+      },
+      {
+        "id": "038635325",
+        "title": "Stage Fright",
+        "synopsis": "Crime: A struggling actress is intent on proving that a high society entertainer murdered her husband. Stars: Jane Wyman, Marlene Dietrich, Michael Wilding. 1950.",
+        "channelNumber": 38,
+        "start": "1539352200000",
+        "end": "1539358800000",
+        "genres": [
+          "Thriller"
+        ],
+        "rating": "G",
+        "relatedEvents": [
+          {
+            "id": "038635333",
+            "title": "Stage Fright",
+            "synopsis": "Crime: A struggling actress is intent on proving that a high society entertainer murdered her husband. Stars: Jane Wyman, Marlene Dietrich, Michael Wilding. 1950.",
+            "channelNumber": 38,
+            "start": "1539398400000",
+            "end": "1539405000000",
+            "genres": [
+              "Thriller"
+            ],
+            "rating": "G"
+          }
+        ]
+      },
+      {
+        "id": "038634389",
+        "title": "The First Purge",
+        "synopsis": "Thriller: In order to control the country's crime rate, the New Founding Fathers of America test an experiment: no laws for 12 hours on Staten Island. Stars: Y'lan Noel, Lex Scott Davis",
+        "channelNumber": 42,
+        "start": "1539761700000",
+        "end": "1539768900000",
+        "genres": [
+          "Movie"
+        ],
+        "rating": "16-CLSV",
+        "relatedEvents": [
+          {
+            "id": "038634390",
+            "title": "The First Purge",
+            "synopsis": "Thriller: In order to control the country's crime rate, the New Founding Fathers of America test an experiment: no laws for 12 hours on Staten Island. Stars: Y'lan Noel, Lex Scott Davis",
+            "channelNumber": 42,
+            "start": "1539768900000",
+            "end": "1539776100000",
+            "genres": [
+              "Movie"
+            ],
+            "rating": "16-CLSV"
+          },
+          {
+            "id": "038634391",
+            "title": "The First Purge",
+            "synopsis": "Thriller: In order to control the country's crime rate, the New Founding Fathers of America test an experiment: no laws for 12 hours on Staten Island. Stars: Y'lan Noel, Lex Scott Davis",
+            "channelNumber": 42,
+            "start": "1539776100000",
+            "end": "1539783300000",
+            "genres": [
+              "Movie"
+            ],
+            "rating": "16-CLSV"
+          },
+          {
+            "id": "038634392",
+            "title": "The First Purge",
+            "synopsis": "Thriller: In order to control the country's crime rate, the New Founding Fathers of America test an experiment: no laws for 12 hours on Staten Island. Stars: Y'lan Noel, Lex Scott Davis",
+            "channelNumber": 42,
+            "start": "1539783300000",
+            "end": "1539790500000",
+            "genres": [
+              "Movie"
+            ],
+            "rating": "16-CLSV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Others",
+    "events": [
+      {
+        "id": "038738071",
+        "title": "About Executing Eichmann",
+        "synopsis": "In 1961 in Jerusalem, Adolf Eichmann was sentenced to death for crimes against the Jewish people and against humanity. Some spoke out against the judgement.",
+        "channelNumber": 73,
+        "start": "1539513000000",
+        "end": "1539516600000",
+        "genres": [
+          "Historical Documentary"
+        ],
+        "rating": "PG",
+        "relatedEvents": [
+          {
+            "id": "038738080",
+            "title": "About Executing Eichmann",
+            "synopsis": "In 1961 in Jerusalem, Adolf Eichmann was sentenced to death for crimes against the Jewish people and against humanity. Some spoke out against the judgement.",
+            "channelNumber": 73,
+            "start": "1539541800000",
+            "end": "1539545400000",
+            "genres": [
+              "Historical Documentary"
+            ],
+            "rating": "PG"
+          }
+        ]
+      },
+      {
+        "id": "038762319",
+        "title": "Banged Up Abroad - Best Ofs",
+        "synopsis": "Partners in Crime: A martial arts expert must use all his training to survive the daily violence of a Spanish prison.",
+        "channelNumber": 72,
+        "start": "1539448200000",
+        "end": "1539451800000",
+        "genres": [
+          "Cultural Documentary"
+        ],
+        "rating": "M-CV",
+        "relatedEvents": []
+      },
+      {
+        "id": "038899370",
+        "title": "DailyMailTV",
+        "synopsis": "From breaking news to showbiz, crime, health, science and technology, DailyMailTV is must-watch television that brings to life the very best of edgy and captivating stories from around the globe.",
+        "channelNumber": 3,
+        "start": "1537831800000",
+        "end": "1537833600000",
+        "genres": [
+          "General Entertainment"
+        ],
+        "rating": "PG",
+        "seriesId": "60116",
+        "relatedEvents": [
+          {
+            "id": "038899369",
+            "title": "DailyMailTV",
+            "synopsis": "From breaking news to showbiz, crime, health, science and technology, DailyMailTV is must-watch television that brings to life the very best of edgy and captivating stories from around the globe.",
+            "channelNumber": 503,
+            "start": "1537835400000",
+            "end": "1537837200000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "PG",
+            "seriesId": "58705"
+          },
+          {
+            "id": "038899400",
+            "title": "DailyMailTV",
+            "synopsis": "From breaking news to showbiz, crime, health, science and technology, DailyMailTV is must-watch television that brings to life the very best of edgy and captivating stories from around the globe.",
+            "channelNumber": 3,
+            "start": "1537846200000",
+            "end": "1537848000000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "PG",
+            "seriesId": "58216"
+          },
+          {
+            "id": "038899399",
+            "title": "DailyMailTV",
+            "synopsis": "From breaking news to showbiz, crime, health, science and technology, DailyMailTV is must-watch television that brings to life the very best of edgy and captivating stories from around the globe.",
+            "channelNumber": 503,
+            "start": "1537849800000",
+            "end": "1537851600000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "PG",
+            "seriesId": "61653"
+          }
+        ]
+      },
+      {
+        "id": "038734164",
+        "title": "Force, The: Essex",
+        "synopsis": "Night Of The Long Knives: A dispute between neighbours gets out of control continuing Essex Police's fight against knife crime.",
+        "channelNumber": 74,
+        "start": "1539510300000",
+        "end": "1539513600000",
+        "genres": [
+          "Cultural Documentary"
+        ],
+        "rating": "M-CL",
+        "seriesId": "58835",
+        "relatedEvents": []
+      },
+      {
+        "id": "038734028",
+        "title": "Fugitives",
+        "synopsis": "Police try to identify a man accused of horrific crimes committed in India in 2002.",
+        "channelNumber": 74,
+        "start": "1539067200000",
+        "end": "1539070200000",
+        "genres": [
+          "Cultural Documentary"
+        ],
+        "rating": "PG",
+        "seriesId": "58821",
+        "relatedEvents": [
+          {
+            "id": "038734039",
+            "title": "Fugitives",
+            "synopsis": "Police try to identify a man accused of horrific crimes committed in India in 2002.",
+            "channelNumber": 74,
+            "start": "1539102600000",
+            "end": "1539105300000",
+            "genres": [
+              "Cultural Documentary"
+            ],
+            "rating": "PG"
+          }
+        ]
+      },
+      {
+        "id": "038526485",
+        "title": "JFK Declassified: Tracking Oswald",
+        "synopsis": "Scene Of The Crime: Investigators will travel the world to piece together the whole story of JFK's assassination.",
+        "channelNumber": 73,
+        "start": "1538127000000",
+        "end": "1538130600000",
+        "genres": [
+          "Historical Documentary"
+        ],
+        "rating": "PG",
+        "seriesId": "54680",
+        "relatedEvents": [
+          {
+            "id": "038526494",
+            "title": "JFK Declassified: Tracking Oswald",
+            "synopsis": "Scene Of The Crime: Investigators will travel the world to piece together the whole story of JFK's assassination.",
+            "channelNumber": 73,
+            "start": "1538155800000",
+            "end": "1538159400000",
+            "genres": [
+              "Historical Documentary"
+            ],
+            "rating": "PG"
+          },
+          {
+            "id": "038526502",
+            "title": "JFK Declassified: Tracking Oswald",
+            "synopsis": "Scene Of The Crime: Investigators will travel the world to piece together the whole story of JFK's assassination.",
+            "channelNumber": 73,
+            "start": "1538184600000",
+            "end": "1538188200000",
+            "genres": [
+              "Historical Documentary"
+            ],
+            "rating": "PG"
+          }
+        ]
+      },
+      {
+        "id": "038439749",
+        "title": "Major Crimes",
+        "synopsis": "The team deals with tangled facts and confusion in the aftermath of fatal car crash outside a nightclub. Meanwhile, Rusty faces a harsh reality when Raydor tracks down his mother. S1 Ep3",
+        "channelNumber": 6,
+        "start": "1538004300000",
+        "end": "1538007300000",
+        "genres": [
+          "General Entertainment"
+        ],
+        "rating": "M-V",
+        "seriesId": "56894",
+        "relatedEvents": [
+          {
+            "id": "038424242",
+            "title": "Major Crimes",
+            "synopsis": "The team deals with tangled facts and confusion in the aftermath of fatal car crash outside a nightclub. Meanwhile, Rusty faces a harsh reality when Raydor tracks down his mother. S1 Ep3",
+            "channelNumber": 6,
+            "start": "1538033400000",
+            "end": "1538037000000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "M-V",
+            "seriesId": "57402"
+          },
+          {
+            "id": "038439719",
+            "title": "Major Crimes",
+            "synopsis": "The team deals with tangled facts and confusion in the aftermath of fatal car crash outside a nightclub. Meanwhile, Rusty faces a harsh reality when Raydor tracks down his mother. S1 Ep3",
+            "channelNumber": 6,
+            "start": "1538049900000",
+            "end": "1538052900000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "M-V",
+            "seriesId": "57922"
+          },
+          {
+            "id": "038439752",
+            "title": "Major Crimes",
+            "synopsis": "After the quarterback of a high school football team is shot and killed in gang territory, Raydor makes a move that could end her career and puts another team member in danger. S1 Ep6",
+            "channelNumber": 6,
+            "start": "1539815100000",
+            "end": "1539818100000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "M-V",
+            "seriesId": "56894"
+          }
+        ]
+      },
+      {
+        "id": "038634913",
+        "title": "Marshal Dillon",
+        "synopsis": "Onetime gunman Zeno Smith faces an unenviable choice. If he does not help Hank Fergus commit a crime, Fergus will reveal details Zeno's knavish past.",
+        "channelNumber": 8,
+        "start": "1539546900000",
+        "end": "1539548400000",
+        "genres": [
+          "General Entertainment"
+        ],
+        "rating": "PG-V",
+        "seriesId": "51338",
+        "relatedEvents": [
+          {
+            "id": "038635140",
+            "title": "Marshal Dillon",
+            "synopsis": "Onetime gunman Zeno Smith faces an unenviable choice. If he does not help Hank Fergus commit a crime, Fergus will reveal details Zeno's knavish past.",
+            "channelNumber": 8,
+            "start": "1539560400000",
+            "end": "1539562200000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "PG-V",
+            "seriesId": "56473"
+          },
+          {
+            "id": "037954748",
+            "title": "Marshal Dillon",
+            "synopsis": "Onetime gunman Zeno Smith faces an unenviable choice. If he does not help Hank Fergus commit a crime, Fergus will reveal details Zeno's knavish past.",
+            "channelNumber": 8,
+            "start": "1539971400000",
+            "end": "1539972900000",
+            "genres": [
+              "General Entertainment"
+            ],
+            "rating": "PG-V",
+            "seriesId": "56521"
+          }
+        ]
+      },
+      {
+        "id": "038754563",
+        "title": "Room Raiders",
+        "synopsis": "Derek: 'CSI: Crime Scene Investigation' meets 'Blind Date' as one contestant searches the bedrooms of three prospective partners to determine whom they wish to date.",
+        "channelNumber": 15,
+        "start": "1539777600000",
+        "end": "1539779100000",
+        "genres": [
+          "Reality Show"
+        ],
+        "rating": "M-CL",
+        "seriesId": "60334",
+        "relatedEvents": [
+          {
+            "id": "038754564",
+            "title": "Room Raiders",
+            "synopsis": "Courtney: 'CSI: Crime Scene Investigation' meets 'Blind Date' as one contestant searches the bedrooms of three prospective partners to determine whom they wish to date.",
+            "channelNumber": 15,
+            "start": "1539779100000",
+            "end": "1539780600000",
+            "genres": [
+              "Reality Show"
+            ],
+            "rating": "PG-CL",
+            "seriesId": "60334"
+          },
+          {
+            "id": "038754592",
+            "title": "Room Raiders",
+            "synopsis": "Kevin: 'CSI: Crime Scene Investigation' meets 'Blind Date' as one contestant searches the bedrooms of three prospective partners to determine whom they wish to date.",
+            "channelNumber": 15,
+            "start": "1539864000000",
+            "end": "1539865500000",
+            "genres": [
+              "Reality Show"
+            ],
+            "rating": "PG-CL",
+            "seriesId": "60334"
+          },
+          {
+            "id": "038754593",
+            "title": "Room Raiders",
+            "synopsis": "Kassie: 'CSI: Crime Scene Investigation' meets 'Blind Date' as one contestant searches the bedrooms of three prospective partners to determine whom they wish to date.",
+            "channelNumber": 15,
+            "start": "1539865500000",
+            "end": "1539867000000",
+            "genres": [
+              "Reality Show"
+            ],
+            "rating": "PG-CL",
+            "seriesId": "60334"
+          }
+        ]
+      },
+      {
+        "id": "038756406",
+        "title": "Skin Tight",
+        "synopsis": "Marranda & Jannet: A victim of crime, Marranda comfort-ate and ballooned - the skin from her weight loss reminds her of the trauma. Jannet's excess skin keeps her from finding love.",
+        "channelNumber": 16,
+        "start": "1538461800000",
+        "end": "1538465400000",
+        "genres": [
+          "Reality Show"
+        ],
+        "rating": "M",
+        "seriesId": "55911",
+        "relatedEvents": [
+          {
+            "id": "038756450",
+            "title": "Skin Tight",
+            "synopsis": "Marranda & Jannet: A victim of crime, Marranda comfort-ate and ballooned - the skin from her weight loss reminds her of the trauma. Jannet's excess skin keeps her from finding love.",
+            "channelNumber": 16,
+            "start": "1538600400000",
+            "end": "1538603400000",
+            "genres": [
+              "Reality Show"
+            ],
+            "rating": "M",
+            "seriesId": "57137"
+          },
+          {
+            "id": "038756533",
+            "title": "Skin Tight",
+            "synopsis": "Marranda & Jannet: A victim of crime, Marranda comfort-ate and ballooned - the skin from her weight loss reminds her of the trauma. Jannet's excess skin keeps her from finding love.",
+            "channelNumber": 16,
+            "start": "1538874600000",
+            "end": "1538877600000",
+            "genres": [
+              "Reality Show"
+            ],
+            "rating": "M",
+            "seriesId": "55740"
+          },
+          {
+            "id": "038756582",
+            "title": "Skin Tight",
+            "synopsis": "Marranda & Jannet: A victim of crime, Marranda comfort-ate and ballooned - the skin from her weight loss reminds her of the trauma. Jannet's excess skin keeps her from finding love.",
+            "channelNumber": 16,
+            "start": "1539011100000",
+            "end": "1539014100000",
+            "genres": [
+              "Reality Show"
+            ],
+            "rating": "M"
+          }
+        ]
+      }
+    ]
+  }
+]

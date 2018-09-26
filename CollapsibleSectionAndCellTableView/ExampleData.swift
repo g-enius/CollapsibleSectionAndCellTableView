@@ -11,37 +11,27 @@
 
 import Foundation
 
-typealias CategoryArray = [CategoryArrayElement]
+typealias CategoryArray = [Category]
 
-struct CategoryArrayElement: Codable {
+class CategoryRaw: Codable {
     let category: String
-    let events: [Event]
+    let events: [EventRaw]
 }
 
-struct Event: Codable {
+class EventRaw: Codable {
     let id, title, synopsis: String
     let channelNumber: Int
     let start, end: String
-    let genres: [Genre]
+    let genres: [String]
     let rating: String
     let seriesID: String?
-    let relatedEvents: [Event]?
-    
-    enum CodingKeys: String, CodingKey {
-        case id, title, synopsis, channelNumber, start, end, genres, rating
-        case seriesID = "seriesId"
-        case relatedEvents
-    }
+    let relatedEvents: [EventRaw]?
 }
 
-enum Genre: String, Codable {
-    case cartoonsPuppets = "Cartoons/Puppets"
-    case culturalDocumentary = "Cultural Documentary"
-    case generalEntertainment = "General Entertainment"
-    case historicalDocumentary = "Historical Documentary"
-    case investigations = "Investigations"
-    case kidsFamily = "Kids/Family"
-    case movie = "Movie"
-    case realityShow = "Reality Show"
-    case thriller = "Thriller"
+class Category:CategoryRaw {
+    var collapsed: Bool = true
+}
+
+class Event: EventRaw {
+    var collapsed: Bool = true
 }

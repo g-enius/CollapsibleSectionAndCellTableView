@@ -13,25 +13,19 @@ import Foundation
 
 typealias CategoryArray = [Category]
 
-class CategoryRaw: Codable {
+class Category: Codable {
     let category: String
-    let events: [EventRaw]
+    let events: [Event]
+    var collapsed: Bool?
 }
 
-class EventRaw: Codable {
+class Event: Codable {
     let id, title, synopsis: String
     let channelNumber: Int
     let start, end: String
     let genres: [String]
-    let rating: String
+    let rating: String?
     let seriesID: String?
-    let relatedEvents: [EventRaw]?
-}
-
-class Category:CategoryRaw {
-    var collapsed: Bool = true
-}
-
-class Event: EventRaw {
-    var collapsed: Bool = true
+    let relatedEvents: [Event]?
+    var collapsed: Bool?
 }

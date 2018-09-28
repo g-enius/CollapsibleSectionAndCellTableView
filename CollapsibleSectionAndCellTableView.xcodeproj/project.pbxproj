@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56020D34215C6B08001466F2 /* SecondaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56020D33215C6B08001466F2 /* SecondaryTableViewCell.swift */; };
+		56020D36215C84A2001466F2 /* SecondaryTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56020D35215C84A2001466F2 /* SecondaryTableViewHeader.swift */; };
 		561E5E0E215ADE07003ECC47 /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E5E0D215ADE07003ECC47 /* CollapsibleTableViewController.swift */; };
 		561E5E10215B0C84003ECC47 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561E5E0F215B0C84003ECC47 /* CollapsibleTableViewHeader.swift */; };
 		566130912159A5F2002ADA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566130902159A5F2002ADA26 /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56020D33215C6B08001466F2 /* SecondaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewCell.swift; sourceTree = "<group>"; };
+		56020D35215C84A2001466F2 /* SecondaryTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewHeader.swift; sourceTree = "<group>"; };
 		561E5E0D215ADE07003ECC47 /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
 		561E5E0F215B0C84003ECC47 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
 		5661308D2159A5F2002ADA26 /* CollapsibleSectionAndCellTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleSectionAndCellTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,8 +114,10 @@
 				566130992159A5F4002ADA26 /* LaunchScreen.storyboard */,
 				5661309C2159A5F4002ADA26 /* Info.plist */,
 				561E5E0D215ADE07003ECC47 /* CollapsibleTableViewController.swift */,
-				56817E3A215AF8610027DF59 /* CollapsibleTableViewCell.swift */,
 				561E5E0F215B0C84003ECC47 /* CollapsibleTableViewHeader.swift */,
+				56817E3A215AF8610027DF59 /* CollapsibleTableViewCell.swift */,
+				56020D33215C6B08001466F2 /* SecondaryTableViewCell.swift */,
+				56020D35215C84A2001466F2 /* SecondaryTableViewHeader.swift */,
 			);
 			path = CollapsibleSectionAndCellTableView;
 			sourceTree = "<group>";
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				561E5E10215B0C84003ECC47 /* CollapsibleTableViewHeader.swift in Sources */,
+				56020D36215C84A2001466F2 /* SecondaryTableViewHeader.swift in Sources */,
 				561E5E0E215ADE07003ECC47 /* CollapsibleTableViewController.swift in Sources */,
+				56020D34215C6B08001466F2 /* SecondaryTableViewCell.swift in Sources */,
 				566130912159A5F2002ADA26 /* AppDelegate.swift in Sources */,
 				56817E3B215AF8610027DF59 /* CollapsibleTableViewCell.swift in Sources */,
 				566130BF2159A6AF002ADA26 /* ExampleData.swift in Sources */,

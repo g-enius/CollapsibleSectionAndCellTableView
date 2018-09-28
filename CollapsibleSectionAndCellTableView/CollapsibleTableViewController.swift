@@ -30,10 +30,11 @@ class CollapsibleTableViewController: UITableViewController {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let categoryArray = try JSONDecoder().decode(CategoryArray.self, from: data)
+                categoryArray.first?.collapsed = false
                 
                 return categoryArray
             } catch let error {
-                print("parse error:\(error.localizedDescription)")
+                print("parse error:\(error)")
             }
         } else {
             print("Invalid filename/path")
@@ -53,21 +54,30 @@ extension CollapsibleTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return categoryArray[section].collapsed ? 0 : categoryArray[section].events.count
+        if categoryArray[section].collapsed == false {
+            return categoryArray[section].events.count
+        } else {
+            return 0
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CollapsibleTableViewCell.self), for:indexPath)
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CollapsibleTableViewCell.self), for:indexPath) as! CollapsibleTableViewCell
+        cell.delegate = self
         let event = categoryArray[indexPath.section].events[indexPath.row]
-        cell.textLabel?.text = event.title
-        cell.detailTextLabel?.text = String(describing: event.relatedEvents?.count)
-        
+        cell.event = event
+        cell.indexPath = indexPath
         return cell
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
+        let event = categoryArray[indexPath.section].events[indexPath.row]
+        if let count = event.relatedEvents?.count, count > 0, event.collapsed == false {
+            return CGFloat(44 * (count + 1))
+        } else {
+            return 44
+        }
+        //        return UITableView.automaticDimension
     }
     
     // Header
@@ -81,6 +91,8 @@ extension CollapsibleTableViewController {
         header.section = section
         header.delegate = self
         
+        header.contentView.backgroundColor = UIColor.black
+    
         return header
     }
     
@@ -91,16 +103,25 @@ extension CollapsibleTableViewController {
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 1.0
     }
-    
 }
 
 extension CollapsibleTableViewController: CollapsibleTableViewHeaderDelegate {
     func toggleSection(_ header: CollapsibleTableViewHeader, section: Int) {
-        let collapsed = !categoryArray[section].collapsed
-        
         // Toggle collapse
-        categoryArray[section].collapsed = collapsed
+        if categoryArray[section].collapsed == false {
+            categoryArray[section].collapsed = true
+        } else {
+            categoryArray[section].collapsed = false
+        }
         
         tableView.reloadSections(NSIndexSet(index: section) as IndexSet, with: .automatic)
+    }
+}
+
+extension CollapsibleTableViewController: CollapsibleTableViewCellDelegate {
+    func toggleCellSection(_ cell: CollapsibleTableViewCell, header: SecondaryTableViewHeader, indexPath: IndexPath?) {
+        guard let indexPath = indexPath else { return }        
+
+        tableView.reloadRows(at: [indexPath], with: .automatic)
     }
 }

@@ -13,6 +13,15 @@ protocol CollapsibleTableViewCellDelegate {
 }
 
 class CollapsibleTableViewCell: UITableViewCell {
+
+    static func cellHeight() -> CGFloat {
+        return 50
+    }
+    
+    static func headerHeight() -> CGFloat {
+        return 60
+    }
+    
     var delegate: CollapsibleTableViewCellDelegate?
     var indexPath: IndexPath?
     
@@ -31,7 +40,6 @@ class CollapsibleTableViewCell: UITableViewCell {
         //Auto resizing the height of the cell
         tableView.estimatedRowHeight = 44.0
         tableView.rowHeight = UITableView.automaticDimension
-        
         tableView.register(SecondaryTableViewCell.self, forCellReuseIdentifier: String(describing: SecondaryTableViewCell.self))
         
         tableView.removeGestureRecognizer(tableView.panGestureRecognizer)
@@ -85,14 +93,7 @@ extension CollapsibleTableViewCell: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        if let count = event?.relatedEvents?.count, event?.collapsed == false && count > 0 {
-//            return CGFloat(44 * (count + 1))
-//        } else {
-//            return 44
-//        }
-        return 44
-
-//        return UITableView.automaticDimension
+        return CollapsibleTableViewCell.cellHeight()
     }
     
     // Header
@@ -102,19 +103,18 @@ extension CollapsibleTableViewCell: UITableViewDelegate, UITableViewDataSource {
             SecondaryTableViewHeader(reuseIdentifier:identifier)
         
         header.textLabel?.text = event?.title
-        header.contentView.backgroundColor = UIColor.lightGray
         header.section = 0
         header.delegate = self
-        
+        header.contentView.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
         return header
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 44.0
+        return CollapsibleTableViewCell.headerHeight()
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 1.0
+        return CGFloat.leastNormalMagnitude
     }
 }
 

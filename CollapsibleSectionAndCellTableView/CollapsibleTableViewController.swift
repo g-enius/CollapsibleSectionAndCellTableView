@@ -9,7 +9,9 @@
 import UIKit
 
 class CollapsibleTableViewController: UITableViewController {
-
+    
+    var outterHeaderHeight: CGFloat = 80.0
+    
     var categoryArray: CategoryArray!
     
     override func viewDidLoad() {
@@ -22,7 +24,7 @@ class CollapsibleTableViewController: UITableViewController {
         tableView.estimatedRowHeight = 44.0
         tableView.rowHeight = UITableView.automaticDimension
         tableView.register(CollapsibleTableViewCell.self, forCellReuseIdentifier:String(describing: CollapsibleTableViewCell.self))
-        self.title = "Search Result"
+        self.title = "CollapsibleSectionAndCellTableView"
     }
     
     private func readCategoryArrayFromJson() -> CategoryArray? {
@@ -72,36 +74,32 @@ extension CollapsibleTableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let event = categoryArray[indexPath.section].events[indexPath.row]
-        if let count = event.relatedEvents?.count, count > 0, event.collapsed == false {
-            return CGFloat(44 * (count + 1))
+        if let relatedEventsCount = event.relatedEvents?.count, relatedEventsCount > 0, event.collapsed == false {
+            return CGFloat(relatedEventsCount) * CollapsibleTableViewCell.cellHeight() + CollapsibleTableViewCell.headerHeight()
         } else {
-            return 44
+            return CollapsibleTableViewCell.headerHeight()
         }
-        //        return UITableView.automaticDimension
     }
     
-    // Header
+    // OutterHeader
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let identifier = String(describing: CollapsibleTableViewHeader.self)
+        
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: identifier) as? CollapsibleTableViewHeader ??
             CollapsibleTableViewHeader(reuseIdentifier:identifier)
-        
         header.textLabel?.text = categoryArray[section].category
-        
         header.section = section
         header.delegate = self
-        
-        header.contentView.backgroundColor = UIColor.black
-    
+        header.contentView.backgroundColor = #colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1)
         return header
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 44.0
+        return outterHeaderHeight
     }
     
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 1.0
+        return CGFloat.leastNormalMagnitude
     }
 }
 
@@ -120,8 +118,8 @@ extension CollapsibleTableViewController: CollapsibleTableViewHeaderDelegate {
 
 extension CollapsibleTableViewController: CollapsibleTableViewCellDelegate {
     func toggleCellSection(_ cell: CollapsibleTableViewCell, header: SecondaryTableViewHeader, indexPath: IndexPath?) {
-        guard let indexPath = indexPath else { return }        
-
+        guard let indexPath = indexPath else { return }
+        
         tableView.reloadRows(at: [indexPath], with: .automatic)
     }
 }

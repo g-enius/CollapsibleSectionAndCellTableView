@@ -107,17 +107,17 @@
 		5661308F2159A5F2002ADA26 /* CollapsibleSectionAndCellTableView */ = {
 			isa = PBXGroup;
 			children = (
+				561E5E0D215ADE07003ECC47 /* CollapsibleTableViewController.swift */,
+				56817E3A215AF8610027DF59 /* CollapsibleTableViewCell.swift */,
+				561E5E0F215B0C84003ECC47 /* CollapsibleTableViewHeader.swift */,
+				56020D33215C6B08001466F2 /* SecondaryTableViewCell.swift */,
+				56020D35215C84A2001466F2 /* SecondaryTableViewHeader.swift */,
 				566130C02159AE2E002ADA26 /* search_crime.json */,
 				566130BE2159A6AF002ADA26 /* ExampleData.swift */,
 				566130902159A5F2002ADA26 /* AppDelegate.swift */,
 				566130972159A5F4002ADA26 /* Assets.xcassets */,
 				566130992159A5F4002ADA26 /* LaunchScreen.storyboard */,
 				5661309C2159A5F4002ADA26 /* Info.plist */,
-				561E5E0D215ADE07003ECC47 /* CollapsibleTableViewController.swift */,
-				561E5E0F215B0C84003ECC47 /* CollapsibleTableViewHeader.swift */,
-				56817E3A215AF8610027DF59 /* CollapsibleTableViewCell.swift */,
-				56020D33215C6B08001466F2 /* SecondaryTableViewCell.swift */,
-				56020D35215C84A2001466F2 /* SecondaryTableViewHeader.swift */,
 			);
 			path = CollapsibleSectionAndCellTableView;
 			sourceTree = "<group>";
